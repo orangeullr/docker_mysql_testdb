@@ -7,7 +7,7 @@ a source that includes the following authors, with sample data from Aalborg univ
 <br>
 <br>
 The .sql file is loaded as a volume mount as the initial database for the docker entry point.
-<br>
+
 installation procedure
 -----------------------
 
