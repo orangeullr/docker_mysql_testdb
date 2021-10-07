@@ -11,7 +11,8 @@ The .sql file is loaded as a volume mount as the initial database for the docker
 installation procedure
 -----------------------
 
-1. install docker and docker-compose<br>
-2. concatenate the contents of split files in the db-dump folder into a file called "employees.sql"<br>
-     a. cat db-dump/x* > employees.sql <br>
-3. run "docker-compose up" from the root of this directory
+1. install docker and docker-compose
+2. change directory to the root of this repo's directory after cloning
+3. concatenate the contents of split files in the db-dump folder into a file called "employees.sql"<br>
+     a. cat db-dump/x* > employees.sql
+4. run "docker-compose up" from the root of this directory
