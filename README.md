@@ -14,5 +14,6 @@ installation procedure
 1. install docker and docker-compose (if linux [tested on ubuntu]) or with docker on windows
 3. change directory to the root of this repo's directory after cloning
 4. concatenate the contents of split files in the db-dump folder into a file called "employees.sql"<br>
-     a. cat db-dump/x* > db-dump employees.sql
-4. run "docker-compose up" from the root of this directory
+     a. cat db-dump/x* > db-dump/employees.sql
+5. remove the x* files from db-dump
+6. run "docker-compose up" from the root of this directory (on ubuntu) or docker compose up on windows
